@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">utsproject</string>
+    <string name="profil_fakultas_upn">PROFIL FAKULTAS UPN</string>
+    <string name="deskrip">deskrip</string>
+    <string name="textview">TextView</string>
+    <string name="nama_fakultas">nama fakultas</string>
+</resources>
