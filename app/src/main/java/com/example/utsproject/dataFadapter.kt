@@ -6,7 +6,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.daftar_fakultas.view.*
 
-class dataFadapter (val dataupnItemList: List<data_upn>, val clickListener: (data_upn) -> Unit) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class dataFadapter (val dataupnItemList: List<data_upn>, val clickListener: (data_upn) -> Unit) :
+    RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
